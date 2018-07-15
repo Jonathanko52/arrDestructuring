@@ -1,9 +1,33 @@
-var location_one, location_two, location_three
 
-[location_one, location_two, location_three] = ['New York', 'Los Angeles', 'San Francisco']
-
-console.log(location_one)
-
-console.log(location_two)
-
-console.log(location_three)
+const locations = [
+    'Brentwood',
+    'California',
+    'Texas',
+    'Santa Monica',
+    'Oregon',
+    'Washington',
+    'Arizona',
+    'Venice',
+    'Utah'
+    ];
+    
+    let [
+      location_one,
+      b,
+      c,
+      location_two,
+      e,
+      f,
+      g,
+      location_three,
+      i,
+    ] = locations
+    
+    
+    const cities = `List of Cities
+    1.${location_one}
+    2.${location_two}
+    3.${location_three}
+    `;
+    
+    console.log(cities)
